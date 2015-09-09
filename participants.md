@@ -1,5 +1,7 @@
 # Participants
 
+| Name            | Email              | Institution |
+|-----------------|--------------------|-------------|
 | Boettiger, Carl | cboettig@gmail.com | UC Berkeley |
 | Bolker, Ben | bolker@mcmaster.ca | McMaster University |
 | Bryan, Jennifer | jenny@stat.ubc.ca | UBC |

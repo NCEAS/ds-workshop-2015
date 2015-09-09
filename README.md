@@ -2,11 +2,11 @@
 
 - Dates: September 9-11, 2015
 - Venue: NCEAS, UCSB
-- Participants: https://github.com/NCEAS/ds-workshop-2015/blob/master/participants.md
+- [Participants](https://github.com/NCEAS/ds-workshop-2015/blob/master/participants.md)
 
 ## Links to Resources
 
-- Agenda and Notes: http://notes.nceas.ucsb.edu/p/ds-workshop-2015
+- [Agenda and Notes](http://notes.nceas.ucsb.edu/p/ds-workshop-2015)
 - Github: https://github.com/NCEAS/ds-workshop-2015
 
 ## The Event

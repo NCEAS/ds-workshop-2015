@@ -3,6 +3,7 @@
 - Dates: September 9-11, 2015
 - Venue: NCEAS, UCSB
 - [Participants](https://github.com/NCEAS/ds-workshop-2015/blob/master/participants.md)
+- Funding: National Science Foundation Grant #1358900
 
 ## Links to Resources
 

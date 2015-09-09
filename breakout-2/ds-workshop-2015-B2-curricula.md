@@ -1,0 +1,42 @@
+## Five categories for Content-based taxonomy: 
+- Data Management and Processing 
+	- Data Management and Metadata
+	- units and dimension analysis
+	- Data management, transformation, integration
+	- Fundamentals of data management
+	- Organizing Data / Workflows (Management)
+		- Data structures, Metadata, Archiving Data
+	- real-world computing, including best practices (data wrangling; unit testing (?); issue tracking)
+	- Integrating heterogeneous data, e.g. File types, Wrangling
+	- data ecosystems (reproducibility; archiving; handling metadata; repositories; semantics and ontologies; standards)
+	- Data acquisition, creation, and storage
+	- Understanding Data
+		- Uncertainty (assessing quality), 
+		- where data comes from
+- Analysis
+	- Analysis (includes tools selection and programming)
+	- Statistics, analysis, and modeling
+	- analysis (spatial analysis; uncertainty propagation; exploratory analysis)
+- Software Skills for Science
+	- Software Development
+	- Software engineering skills for science (e.g., version control)
+	- Workflows, e.g. Scripting, Version control
+	- basics (command line programming; directories and files; *basic* workflows; data structures)
+	- Practical computing at scale
+		- advanced computing (parallelization; numerical stability; scalability; algorithms for big data)
+		- Computing "architecture"
+		- Hardware & Tools
+			- HPC
+	- Algorithm development
+- Visualization
+	- Visualization - Structuring
+	- Visualization
+	- Visualization
+	- "soft skills" (communication; visualization/visual literacy;         (collaboration; interdisciplinary thinking; open science; licensing)
+- Collaboration, Communication, and Dissemination
+	- Reproducible Open Science
+		- Organizing Data, Collaboration Workflows, Science Communication
+		- Publication / Citation, Version Control, Documentation
+	- Website Development
+	- "soft skills" (communication; visualization/visual literacy; collaboration; interdisciplinary thinking; open science; licensing)
+	- Communication?

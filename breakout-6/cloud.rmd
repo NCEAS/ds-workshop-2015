@@ -11,6 +11,17 @@ Original working notes [here](http://notes.nceas.ucsb.edu/p/ds-workshop-2015-b6-
 
 ## "Train the trainers" doc for teaching in the cloud
 
+* this should be written collaboratively between experts (Tracy, Ethan, Carl, Mike?) and guinea pigs (Ben, ?)
+* relatively short (2-3 pp.?), practical guide
+* outline:
+     * short concept overview
+	 * concrete/step-by-step examples
+	 * general best practices
+	 * pitfalls
+     * list of current platforms with pros and cons
+* General-purpose instances vs. SaaS providers (e.g. PythonAnywhere)?
+* some parts e.g. glossary of concepts & terms could overlap with the ms.
+
 ## Manuscript/manuscript section on "teaching (in) the cloud"
 
 * While this mostly focuses on "local vs. cloud", it is really more generally "local vs. remote"; "remote" could mean "cloud", but it could also mean "HPC at local institution", or "departmental server", or ... 
@@ -28,12 +39,12 @@ Teaching "*in* the cloud" means using cloud/remote services for teaching (typica
 
 #### Advantages
 
-* making instructors' lives easier
+* make instructors' lives easier
 * accessibility
 * uniformity of the student's work environments
 * usage via pre-defined systems (e.g., genomics, Rocker, etc.)
 * improved pedagogy for students, learn to work in clean environment
-* empower/lower barriers for transition to "the cloud"
+* empower/lower barriers for later transition to the cloud/remote computing
 * avoid command-line bullshittery, but get buy-in of remote use for later
 
 #### Examples

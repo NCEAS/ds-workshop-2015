@@ -1,0 +1,126 @@
+---
+title: "Breakout 6: Desktop to cloud"
+author: Tracy, Mike, Lauren, Matt, Julien, Carl, Ethan, Ben
+date: "`r format(Sys.time(), '%H:%M %d %B %Y')`"
+output: html_document
+------
+
+Original working notes [here](http://notes.nceas.ucsb.edu/p/ds-workshop-2015-b6-cloud)  
+
+# Products
+
+## "Train the trainers" doc for teaching in the cloud
+
+## Manuscript/manuscript section on "teaching (in) the cloud"
+
+* While this mostly focuses on "local vs. cloud", it is really more generally "local vs. remote"; "remote" could mean "cloud", but it could also mean "HPC at local institution", or "departmental server", or ... 
+* We're thinking about multiple audiences/levels of remote computing.
+    * Stage 1 ("teaching in the cloud"): use simple front ends (RStudio/Jupiter/etc.), users don't realize they are on the cloud
+    * Stage 2: ("teaching the cloud (basic)") Empower via the command line, people consciously choose the cloud, possibly just run a new instance
+        * when and how this happens is domain- and data-specific
+    * Stage 3: ("teaching the cloud (intermediate)"): the power of multiple instances, configuring new VMs via containerized environments (e.g., via Docker)
+        * New trainers should start at level 2 or 3
+    * Stage 4 (?): ("teaching the cloud (advanced)"): distributed and parallelized computation, high-performance computation
+
+### Stage 1: Teaching in the cloud 
+
+Teaching "*in* the cloud" means using cloud/remote services for teaching (typically) introductory/undergraduate quantitative material. The goal is for the local vs. remote distinction to be largely transparent to the end-users (students); they only know that they have to go to URL (xxx) in order to use R/Python whatever.  A secondary type of "user" for this teaching mode is the trainers who need to know enough to set up/deploy/troubleshoot the simple types of remote instances they will need.
+
+#### Advantages
+
+* making instructors' lives easier
+* accessibility
+* uniformity of the student's work environments
+* usage via pre-defined systems (e.g., genomics, Rocker, etc.)
+* improved pedagogy for students, learn to work in clean environment
+* empower/lower barriers for transition to "the cloud"
+* avoid command-line bullshittery, but get buy-in of remote use for later
+
+#### Examples
+
+* Duke intro stats
+* Berkeley: Jupyter/Python in the cloud
+* Google Group of folks using JupyterHub for teaching https://groups.google.com/forum/#!forum/jupyter-education
+
+#### Learning objectives
+
+* *mostly* not remote-computing-related: remote computing is a means to an end
+* (some) awareness of remote computing (data staging, etc)
+
+### Stage 2: Teaching the cloud (basic)
+
+This an intermediate stage; target audience includes (i) trainers who want to teach in the cloud; (ii) researchers who want to do *basic* kinds of remote computing
+
+The boundary between stage 2 (basic) and stage 3 (advanced) cloud use is not entirely clear.
+
+#### Advantages
+
+* independence/self-support
+* easy scaling for simple problems, lab-level scaling
+* farewell to sticky notes
+* leave GUI or batch job running on the instance
+
+#### Disadvantages
+
+* ? 
+
+### Stage 3/4: Teaching the cloud (intermediate/advanced)
+
+Target audience: researchers and educators, who need to customize images for their own use or do heavier/more complicated computing: postdocs, advanced students
+
+#### Advantages
+
+* Customization
+* Enabling cross-platform testing for developers/maintainers
+* parallelization is a benefit, but requires a higher level of understanding (can hide some of the difficulty for trivially parallel jobs, especially if libs are parallel enabled)
+* Enables/enforces reproducibility/documentation
+* HPC can be seamless when proper frontends are available (RStudio, Jupyter)
+* cloud motivates the command line
+
+#### Disadvantages
+
+* logistics: administering instances, funding, hacking/security
+* some will go away as stuff matures, but ...
+* toolchain not installed locally; people don't learn how to do the installs
+* HPC tools: different stacks, schedulers, data stores, etc.
+* HPC and cloud barriers are different but both problems
+* back-end technologies are rapidly evolving
+
+####  Learning objectives
+
+* conceptual understanding (how does it work? how do I log in?)
+* spinning (locating and choosing) up multiple instances
+* choice of platforms (Amazon, Docker, Azure, etc.)
+* ssh and basic command line stuff
+* security basics
+* payment models
+* `screen`
+* transition to the cloud:
+    * leave GUI running on the instance
+    * single R CMD BATCH
+    * multiple R CMD BATCH
+    * multiple instances
+    * security, key mgt, etc
+    * ... ? learn to spawn multiple instances, distribute, etc.
+    * distributed vs. parallel computation
+
+What are the pre-req skills & concepts?
+
+#### Examples
+
+* NGS course
+* Data Carpentry metagenomics
+* need more practical, concrete examples/context
+
+## Gaps
+
+* data storage solutions
+    * temporary storage solution, not an archive
+    * objections to S3: not well-integrated with EC2; specialized data transfer modes
+    * need user-level answers/best practices/basic concepts
+    * use KNB (NCEAS data repo)
+    * Center for Open Science (workflow repository)
+    * don't want to mandate openness?
+    * security
+* all technologies are rapidly evolving
+* funding and prep for the cloud is lacking; need HOWTO teach and setup and acquire the cloud

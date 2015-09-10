@@ -3,7 +3,7 @@ title: "Breakout 6: Desktop to cloud"
 author: Tracy, Mike, Lauren, Matt, Julien, Carl, Ethan, Ben
 date: "`r format(Sys.time(), '%H:%M %d %B %Y')`"
 output: html_document
-------
+---
 
 Original working notes [here](http://notes.nceas.ucsb.edu/p/ds-workshop-2015-b6-cloud)  
 
@@ -124,3 +124,7 @@ What are the pre-req skills & concepts?
     * security
 * all technologies are rapidly evolving
 * funding and prep for the cloud is lacking; need HOWTO teach and setup and acquire the cloud
+
+## Boxes (ideas)
+
+* Box 1: basic glossary/concepts (instance, "spin up", HPC, ...)

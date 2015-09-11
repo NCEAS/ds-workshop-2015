@@ -25,7 +25,7 @@
     - Software design for reusability
 	- Algorithm design and development
     - Data structures and algorithms
-	- Concepts of cloud and hig-performance computing
+	- Concepts of cloud and high-performance computing
     - Practical cloud computing
     - Code parallelization
     - Numerical stability
@@ -33,6 +33,7 @@
 - Analysis
     - Basic statistical inference
     - Exploratory analysis
+    - Geospatial information handling
     - Spatial analysis
     - Time-series analysis
     - Advanced Linear modeling

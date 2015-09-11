@@ -53,12 +53,19 @@
     - 2D and 3D visualization
     - Web visualization tools and techniques
 - Communication and Dissemination
-	- Reproducible Open Science
-		- Organizing Data, Collaboration Workflows, Science Communication
-		- Publication / Citation, Version Control, Documentation
+    - Documentation
 	- Website Development
-	- "soft skills" (communication; visualization/visual literacy; collaboration; interdisciplinary thinking; open science; licensing)
-	- Communication?
+	- Communication
     - Licensing
+    - Message development
+    - Science Communication (to the public)
+    - Social media
 - Collaboration and Synthesis
+	- Reproducible Open Science
+	- Organizing data for synthesis
+    - Collaboration Workflows for groups
+    - Conflict resolution
+    - Establishing collaboration policies 
+    - Composition of collaborative teams
+    - Interdisciplinary thinking
 

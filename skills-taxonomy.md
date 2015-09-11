@@ -34,6 +34,7 @@
     - Basic statistical inference
     - Exploratory analysis
     - Spatial analysis
+    - Time-series analysis
     - Advanced Linear modeling
     - Non-linear modeling
     - Bayesian techniques

@@ -1,10 +1,12 @@
 ## Five categories for Content-based taxonomy: 
 - Data Management and Processing 
 	- Fundamentals of data management
-    - Data modeling concepts
+    - Structuring and organizing data
+    - Database management systems (e.g., SQL)
     - Metadata concepts, standards, and authoring
     - Data versioning, identification, and citation
     - Archiving data in community repositories
+    - Moving large data
     - Data preservation best practices
 	- Units and dimensional analysis
     - Data transformation
@@ -13,20 +15,6 @@
     - Quantifying data uncertainty
     - Data provenance and reproducibility
     - Data semantics and ontologies
-- Analysis
-    - Basic statistical inference
-    - Exploratory analysis
-    - Spatial analysis
-    - Linear modeling
-    - Non-linear modeling
-    - Bayesian techniques
-    - Uncertainty propagation
-    - Meta-analysis and systematic reviews
-    - Scientific workflows
-    - Scientific algorithms
-    - Simulation modeling
-    - Analytical modeling
-    - Modeling and analysis frameworks
 - Software Skills for Science
 	- Software development practices and engineering mindset
     - Version control
@@ -42,6 +30,21 @@
     - Code parallelization
     - Numerical stability
     - Algorithms for handling large data
+- Analysis
+    - Basic statistical inference
+    - Exploratory analysis
+    - Spatial analysis
+    - Advanced Linear modeling
+    - Non-linear modeling
+    - Bayesian techniques
+    - Uncertainty propagation
+    - Meta-analysis and systematic reviews
+    - Scientific workflows
+    - Scientific algorithms
+    - Simulation modeling
+    - Analytical modeling
+    - Modeling and analysis frameworks
+    - Machine learning
 - Visualization
 	- Visualization - Structuring
 	- Visualization

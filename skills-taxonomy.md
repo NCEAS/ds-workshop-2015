@@ -1,7 +1,7 @@
 ## Five categories for Content-based taxonomy: 
-- Data Management and Processing 
+- Data Management and Processing
 	- Fundamentals of data management
-    - Structuring and organizing data
+    - Modeling structure and organization of data
     - Database management systems and queries (e.g., SQL)
     - Metadata concepts, standards, and authoring
     - Data versioning, identification, and citation

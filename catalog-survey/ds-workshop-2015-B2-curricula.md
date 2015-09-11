@@ -1,18 +1,18 @@
 ## Five categories for Content-based taxonomy: 
 - Data Management and Processing 
-	- Data Management and Metadata
-	- units and dimension analysis
-	- Data management, transformation, integration
 	- Fundamentals of data management
-	- Organizing Data / Workflows (Management)
-		- Data structures, Metadata, Archiving Data
-	- real-world computing, including best practices (data wrangling; unit testing (?); issue tracking)
-	- Integrating heterogeneous data, e.g. File types, Wrangling
-	- data ecosystems (reproducibility; archiving; handling metadata; repositories; semantics and ontologies; standards)
-	- Data acquisition, creation, and storage
-	- Understanding Data
-		- Uncertainty (assessing quality), 
-		- where data comes from
+    - Data modeling concepts
+    - Metadata concepts, standards, and authoring
+    - Data versioning, identification, and citation
+    - Archiving data in community repositories
+    - Data preservation best practices
+	- Units and dimensional analysis
+    - Data transformation
+    - Integrating heterogeneous, messy data
+    - Quality assessment
+    - Quantifying data uncertainty
+    - Data provenance and reproducibility
+    - Data semantics and ontologies
 - Analysis
 	- Analysis (includes tools selection and programming)
 	- Statistics, analysis, and modeling

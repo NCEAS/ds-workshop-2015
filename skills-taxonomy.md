@@ -2,7 +2,7 @@
 - Data Management and Processing 
 	- Fundamentals of data management
     - Structuring and organizing data
-    - Database management systems (e.g., SQL)
+    - Database management systems and queries (e.g., SQL)
     - Metadata concepts, standards, and authoring
     - Data versioning, identification, and citation
     - Archiving data in community repositories

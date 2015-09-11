@@ -46,14 +46,19 @@
     - Modeling and analysis frameworks
     - Machine learning
 - Visualization
-	- Visualization - Structuring
-	- Visualization
-	- Visualization
-	- "soft skills" (communication; visualization/visual literacy;         (collaboration; interdisciplinary thinking; open science; licensing)
-- Collaboration, Communication, and Dissemination
+    - Visual literacy and graphical principles
+    - Visualization services and libraries
+    - Visualization tools
+    - Interactive visualizations
+    - 2D and 3D visualization
+    - Web visualization tools and techniques
+- Communication and Dissemination
 	- Reproducible Open Science
 		- Organizing Data, Collaboration Workflows, Science Communication
 		- Publication / Citation, Version Control, Documentation
 	- Website Development
 	- "soft skills" (communication; visualization/visual literacy; collaboration; interdisciplinary thinking; open science; licensing)
 	- Communication?
+    - Licensing
+- Collaboration and Synthesis
+

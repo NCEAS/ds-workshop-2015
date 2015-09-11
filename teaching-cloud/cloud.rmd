@@ -76,7 +76,7 @@ Teaching "*in* the cloud" means using cloud/remote services for teaching (typica
 * SESYNC viz course - local vm’s
 
 
-###  Stage 2: Teaching the cloud (basic)
+###  Stage 2: Teaching the cloud (basic)  (Tracy)
 
 This an intermediate stage; target audience includes (i) trainers who want to teach in the cloud; (ii) researchers who want to do *basic* scalable computing.
 
@@ -107,12 +107,25 @@ This an intermediate stage; target audience includes (i) trainers who want to te
 * Understand how to locate and acquire remote resources - local and public cloud
 * understand pricing / cost tradeoffs
 
-### Stage 3: Teaching the cloud (intermediate/advanced scalable computing)
+### Stage 3: Teaching the cloud (intermediate/advanced scalable computing)  (Carl)
 
+Students, instructors and researchers seeking to utilize more specialized
+computational environments may need to learn more advanced skills required
+to modify or create their own machine images.  Similar skills also allow
+users to scale up analyses by selecting and leveraging computational
+resources tuned to the task: parallel processing, high-memory instances,
+fast, large solid-state disks, or high-speed network connectivity. 
+Mastery of these skills is the domain of computer systems administrators
+and other specialists, but domain scientists would be well served by 
+familiarity with the concepts to understand what is possible even when
+details of implementation will require the expertise of specialists.
+
+<!-- 
 **Target audience:** researchers and educators, who need to customize images for their own use or do heavier/more complicated computing: postdocs, advanced students.
 
 * Customizing or creating images for teaching or research
 * Scaling processing across multiple images.
+-->
 
 #### Advantages
 

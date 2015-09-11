@@ -14,20 +14,34 @@
     - Data provenance and reproducibility
     - Data semantics and ontologies
 - Analysis
-	- Analysis (includes tools selection and programming)
-	- Statistics, analysis, and modeling
-	- analysis (spatial analysis; uncertainty propagation; exploratory analysis)
+    - Basic statistical inference
+    - Exploratory analysis
+    - Spatial analysis
+    - Linear modeling
+    - Non-linear modeling
+    - Bayesian techniques
+    - Uncertainty propagation
+    - Meta-analysis and systematic reviews
+    - Scientific workflows
+    - Scientific algorithms
+    - Simulation modeling
+    - Analytical modeling
+    - Modeling and analysis frameworks
 - Software Skills for Science
-	- Software Development
-	- Software engineering skills for science (e.g., version control)
-	- Workflows, e.g. Scripting, Version control
-	- basics (command line programming; directories and files; *basic* workflows; data structures)
-	- Practical computing at scale
-		- advanced computing (parallelization; numerical stability; scalability; algorithms for big data)
-		- Computing "architecture"
-		- Hardware & Tools
-			- HPC
-	- Algorithm development
+	- Software development practices and engineering mindset
+    - Version control
+    - Software testing for reliability
+    - Software workflows
+    - Scripted programming (e.g., R, Python)
+    - Command line programming
+    - Software design for reusability
+	- Algorithm design and development
+    - Data structures and algorithms
+	- Concepts of cloud and hig-performance computing
+    - Practical cloud computing
+    - Code parallelization
+    - Numerical stability
+    - Algorithms for handling large data
 - Visualization
 	- Visualization - Structuring
 	- Visualization

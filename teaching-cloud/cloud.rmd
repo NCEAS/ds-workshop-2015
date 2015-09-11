@@ -53,7 +53,7 @@ Teaching "*in* the cloud" means using cloud/remote services for teaching (typica
 * usage via pre-defined systems (e.g., genomics, Rocker, etc.)
 * improved pedagogy for students, learn to work in clean environment
 * empower/lower barriers for later transition to the cloud/remote computing
-* avoid command-line bullshittery, but get buy-in of remote use for later
+* avoid command-line bullshittery, but get buy-in of remote use for later, illustrate power of approach
 
 #### Disadvantages
 * licensing/usage/copyright restrictions by institutions
@@ -74,11 +74,12 @@ Teaching "*in* the cloud" means using cloud/remote services for teaching (typica
 * Berkeley: Jupyter/Python in the cloud
 * Google Group of folks using JupyterHub for teaching https://groups.google.com/forum/#!forum/jupyter-education
 * SESYNC viz course - local vm’s
+* NCEAS RStudio for postdocs in private cloud
 
 
 ###  Stage 2: Teaching the cloud (basic)  (Tracy)
 
-This an intermediate stage; target audience includes (i) trainers who want to teach in the cloud; (ii) researchers who want to do *basic* scalable computing.
+This an intermediate stage; target audience includes (i) trainers who want to teach in the cloud; (ii) researchers who want to do *basic* scalable computing. A common transition scenario is to start by running pre-canned images on local compute resources, and then transition to using those images on remote cloud instances as scaling is needed.
 
 #### Advantages
 
@@ -99,6 +100,7 @@ This an intermediate stage; target audience includes (i) trainers who want to te
 * Titus Brown’s [short courses](http://angus.readthedocs.org/en/2014/day1.html)
 * iPlant atmosphere
 * EDAMAME course [1](https://github.com/edamame-course/2015-tutorials/blob/master/final/2015-06-22-EC2_Startup.md), [2](https://github.com/edamame-course/2015-tutorials/blob/master/final/2015-06-22-EC2_Connection_FileTransfer.md)
+* Rocker/ropensci image to bootstrap RStudio environment with packages for environmental science
 
 #### Learning Objectives
 
@@ -129,7 +131,7 @@ details of implementation will require the expertise of specialists.
 
 #### Advantages
 
-* Customization
+* Customization of computing environment
 * Enabling cross-platform testing for developers/maintainers
 * parallelization is a benefit, but requires a higher level of understanding (can hide some of the difficulty for trivially parallel jobs, especially if libs are parallel enabled)
 * Enables/enforces reproducibility/documentation
@@ -142,7 +144,7 @@ details of implementation will require the expertise of specialists.
 * some will go away as stuff matures, but ...
 * toolchain not installed locally; people don't learn how to do the installs
 * HPC tools: different stacks, schedulers, data stores, etc.
-* HPC and cloud barriers are different but both problems
+* HPC and cloud barriers are different but both problems (should acknowledge that HPC centers are moving to containers as well, e.g., NCSA's NDS Labs)
 * back-end technologies are rapidly evolving
 * possibly not optimal for “Big Data” challenges
 
@@ -151,7 +153,7 @@ details of implementation will require the expertise of specialists.
 * conceptual understanding (how does it work? how do I log in?)
 * spinning (locating and choosing) up multiple instances
 * choice of platforms (Amazon, Docker, Azure, iPlant, etc.)
-* ssh and basic command line stuff
+* ssh and basic command line stuff (I really think this is somewhat orthogonal, and is more a requirement to get started)
 * security basics
 * payment models
 * `screen`
@@ -169,6 +171,7 @@ details of implementation will require the expertise of specialists.
 * NGS course
 * Data Carpentry metagenomics
 * need more practical, concrete examples/context
+* National Data Service Labs
 
 ## Conclusion: exhortation to excel (not microsoft), rah rah rah
 
@@ -179,7 +182,7 @@ multiple environments, but allow students to move relatively seamlessly between 
 
 * Box 1: basic glossary/concepts (instance, "spin up", HPC, ...) (do this later)
 * Box 2: (MPS) scalable alternatives to the cloud. Availability is *highly* variable. Costs and benefits (cost, flexibility, admin load …) have to be considered carefully.
-* Box 3: Gaps (EW)
+* Box 3: Gaps (EW, MBJ)
    * data storage solutions
        * temporary storage solution, not an archive
        * objections to S3: not well-integrated with EC2; specialized data transfer modes

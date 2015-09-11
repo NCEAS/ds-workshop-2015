@@ -195,6 +195,7 @@ multiple environments, but allow students to move relatively seamlessly between 
 * Box 4: recommendations (EW)
    * people should start doing this stuff in the classroom!
    * encourage campus/local IT to support virtual environments (not just classic HPC model)
+* Box 5: Example command line session to start a Rocker/ropensci instance locally (MBJ)
 
 ## References
 

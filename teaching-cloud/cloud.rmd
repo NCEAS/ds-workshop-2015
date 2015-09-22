@@ -19,27 +19,68 @@ output: html_document
 
 (*do this later*)
 
-# Introduction (BMB)
+# Introduction
 
-* Now is the time to transition to teaching in the cloud. Current and past problems that motivate this transition:
-    * for 25 years there’s been a computer in the corner that says ‘Do Not Touch’ 
-    * we buy hardware that’s soon obsolete, or we don't have staff to support it
-    * locked down computer labs are no longer sensible
-* We can do better 
-    * compute resources exist at reasonable cost 
-    * we simply can’t do many of our analyses on our desktops
-    * classroom advantages in uniformity and transitioning to scalable computing for teaching
-    * teaching skills that are useful in data driven research and industry
-    * logistical convenience for teaching
-* There are many ways to access remote/scalable computing, cloud like AWS, local HPC resources. The path we are describing is *one path* to the cloud or other shared resources (locally hosted servers, HPC). The general ideas discussed here are technology agnostic; however, the public cloud is almost universally accessible. Much of what we discuss below is equally applicable to other platforms such as HPC; we highlight distinctions between the public cloud and other platforms where they exist.
+For educators who teach computer programming and especially for those
+who teach data analysis and data science, it is time to transition to
+'teaching in the cloud'.  Teaching in the cloud - basing introductory
+programming and data science courses on remote virtual machines rather
+than relying on students' personal computers or institutional computer
+labs has both immediate and longer-term advantages.  In the short
+term, teaching in the cloud mitigates logistical headaches; in the
+long term, teaching in the cloud acts a gateway to 'teaching the
+cloud' - enabling more advanced students to use remote computing
+resources and educating them in the best practices of reproducible,
+pipeline-based, scalable data science.
 
-In this paper we will describe three stages that go from accessing the internet on a computer to setting up and running your own custom environments.
-* Stages of the cloud transition:
-    * Stage 1 ("teaching in the cloud"): use simple front ends (RStudio/Jupiter/etc.), users don't realize they are on the cloud
-         * Moving beyond the locked down computer lab and teaching using readily acessible images. We will show some of the images and describe the concepts an instructor needs to master in order to each in the cloud.
-    * Stage 2: ("teaching the cloud (basic)") Empower via the command line, people consciously choose the cloud, possibly just run a new instance.Move to community standard images
-        * when and how this happens is domain- and data-specific
-    * Stage 3: ("teaching the cloud (intermediate/advanced)"): the power of multiple instances, configuring new VMs via containerized environments (e.g., via Docker). Distributed and parallelized computation, high-performance computation.
+The disadvantages of teaching out of the cloud, with local computing
+resources, are well-known: instructors must either 
+schedule access to overcrowded computer labs (and make sure that
+appropriate versions of software are installed) or, even worse, make
+sure that appropriate versions of software are installed on a
+heterogeneous collection of student computers. More broadly, we would
+argue that in the 21st centuries universities should be investing in
+scalable, virtualizable resources rather than in rapidly obsolescing
+workstations for student computer labs.
+
+The advantages of teaching the cloud are even more evident, and
+probably most familiar to working data scientists: these
+skills and perspectives are valuable for working researchers
+in every area of science, whether academic or industrial, and
+in newly emerging areas of data-driven commerce. We hope that
+by teaching (in) the cloud we can finally bring up a generation of
+researchers who don't need to put sticky notes saying "do not touch:
+analysis running" on their workstations.
+
+There are many ways to access remote and scalable computing,
+ranging from true cloud services such as Amazon Web Services (AWS),
+university-supported high-performance clusters, to departmental
+or lab servers. While many of our ideas are technologically 
+agnostic, and could be implemented equally well on any
+remote computational platform, the public cloud provides a
+degree of flexibility and accessibility that works particularly
+well with our vision. Below, especially in the section on
+advanced cloud use, we highlight important distinctions
+between the public cloud and other platforms.
+
+Here we outline a three-stage process that goes from the simplest
+level of learning in the cloud to advanced cloud use. At stage 1
+("teaching in the cloud"), students' computational environments are
+simple, semi-graphical front ends (e.g. RStudio, Jupyter). They don't
+even need to know they are "on the cloud"; they just need to know a
+URL to enter into their web browser.  At stage 2, students learn basic
+set-up and administration of cloud resources - useful both for stage-1
+instructors, who need to know how to administer cloud resources for
+their students, and researchers who can use cloud resources to
+simplify and enhance their computational research. At this stage, when
+students are consciously choosing to engage in cloud computing, we
+begin to convey the gospel of the command line and the value of
+pipeline-based, reproducible computing.  Stage 3, advanced cloud use,
+is for researchers who need high-performance or large-scale computing;
+they learn how to distribute computation across multiple instances,
+how to configure new virtual machine configurations via containerized
+environments, and how to choose among the variety of modern cloud- and
+cluster-based computational platforms.
 
 ### Stage 1: Teaching in the cloud (msmorul)
 
